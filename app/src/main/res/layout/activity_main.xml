@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        >
+
+        <EditText
+            android:id="@+id/videoTitle"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="Video Title"
+            android:background="@drawable/edit_text_back"
+            android:paddingLeft="15dp"
+            />
+
+        <EditText
+            android:id="@+id/videoDescription"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:hint="Video Description"
+            android:background="@drawable/edit_text_back"
+            android:paddingLeft="15dp"
+            android:gravity="start"
+            android:layout_marginTop="5dp"
+            />
+
+        <EditText
+            android:id="@+id/videoId"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="Video Id"
+            android:background="@drawable/edit_text_back"
+            android:paddingLeft="15dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            >
+            <RadioButton
+                android:id="@+id/allBtn"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="All"
+                android:checked="true"
+                />
+
+            <RadioButton
+                android:id="@+id/liveBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Live"
+                />
+
+        </RadioGroup>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Post"
+            android:layout_marginTop="25dp"
+            android:id="@+id/postBtn"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Video"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="25dp"
+        android:id="@+id/deleteBtn"
+        />
+
+</RelativeLayout>

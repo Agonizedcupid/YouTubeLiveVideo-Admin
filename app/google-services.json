@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "118847749772",
+    "firebase_url": "https://livevideoadmin-46f0f-default-rtdb.firebaseio.com",
+    "project_id": "livevideoadmin-46f0f",
+    "storage_bucket": "livevideoadmin-46f0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118847749772:android:83237a3ec142ef5a74c5a9",
+        "android_client_info": {
+          "package_name": "com.aariyan.funnyvideos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118847749772-bvgagf0grr65cm39iv30rcrudj6s2m1s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoO5d5cpqeJfBX_6AeCCZ41PTrNgxd_o0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "118847749772-bvgagf0grr65cm39iv30rcrudj6s2m1s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118847749772:android:55eb8ff65f5a0cec74c5a9",
+        "android_client_info": {
+          "package_name": "com.aariyan.live_videos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118847749772-bvgagf0grr65cm39iv30rcrudj6s2m1s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoO5d5cpqeJfBX_6AeCCZ41PTrNgxd_o0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "118847749772-bvgagf0grr65cm39iv30rcrudj6s2m1s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118847749772:android:e11e9a6be2e12b6074c5a9",
+        "android_client_info": {
+          "package_name": "com.aariyan.liveadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118847749772-bvgagf0grr65cm39iv30rcrudj6s2m1s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoO5d5cpqeJfBX_6AeCCZ41PTrNgxd_o0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "118847749772-bvgagf0grr65cm39iv30rcrudj6s2m1s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118847749772:android:8f90198794950da974c5a9",
+        "android_client_info": {
+          "package_name": "com.aariyan.youtubevideoadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118847749772-bvgagf0grr65cm39iv30rcrudj6s2m1s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoO5d5cpqeJfBX_6AeCCZ41PTrNgxd_o0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "118847749772-bvgagf0grr65cm39iv30rcrudj6s2m1s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
