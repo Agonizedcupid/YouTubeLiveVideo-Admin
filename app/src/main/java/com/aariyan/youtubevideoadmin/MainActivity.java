@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
                         videoName.getText().toString(),
                         "",
                         videoId.getText().toString(),
-                        type
+                        type,"0"
                 );
 
                 videoRef.child(id).setValue(model).addOnSuccessListener(new OnSuccessListener<Void>() {

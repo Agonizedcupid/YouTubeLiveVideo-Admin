@@ -3,6 +3,7 @@ package com.aariyan.youtubevideoadmin.Model;
 public class VideoModel implements Comparable<VideoModel> {
 
     private String id,videoDate,videoDescription,videoName,videoThumbnail,videoUrl,type;
+    private String totalViews;
     public VideoModel(){}
 
     public VideoModel(String id, String videoDate, String videoDescription, String videoName, String videoThumbnail, String videoUrl,String type) {
@@ -13,6 +14,26 @@ public class VideoModel implements Comparable<VideoModel> {
         this.videoThumbnail = videoThumbnail;
         this.videoUrl = videoUrl;
         this.type = type;
+    }
+
+    public VideoModel(String id, String videoDate, String videoDescription, String videoName, String videoThumbnail, String videoUrl, String type, String totalViews) {
+        this.id = id;
+        this.videoDate = videoDate;
+        this.videoDescription = videoDescription;
+        this.videoName = videoName;
+        this.videoThumbnail = videoThumbnail;
+        this.videoUrl = videoUrl;
+        this.type = type;
+        this.totalViews = totalViews;
+    }
+
+
+    public String getTotalViews() {
+        return totalViews;
+    }
+
+    public void setTotalViews(String totalViews) {
+        this.totalViews = totalViews;
     }
 
     public String getType() {
